@@ -4,7 +4,7 @@ Donate link: http://hyperspatial.com/donate
 Tags: youtube,video,video player,chromeless,youtube player,flash player
 Requires at least: 2.8
 Tested up to: 2.9.2
-Stable tag: trunk
+Stable tag: 1.01
 
 This chromeless YouTube player enables you to easily display videos on your site. Each player instance displays a different video and can be resized.
 
