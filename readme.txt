@@ -41,3 +41,6 @@ Absolutely, this simple video player widget pretty much rules!
 
 = 1.0 =
 * Hello Wordpress World!
+
+= 1.01 =
+* Fixed file path issue.  Last minute directory change from chromeless to chromeless-youtube, needed to change the path to the player .swf
