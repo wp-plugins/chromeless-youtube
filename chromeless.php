@@ -2,8 +2,8 @@
 /*
 Plugin Name: Chromeless YouTube
 Plugin URI: http://hyperspatial.com/wordpress-development/plugins/chromeless-youtube/
-Description: This chromeless YouTube player enables you to easily display multiple videos on your site. Each player instance displays a different video and can be resized.
-Version: 1.0
+Description: This chromeless YouTube player enables you to easily display videos on your site. Each player instance displays a different video and can be resized.
+Version: 1.01
 Author: Adam J Nowak
 Author URI: http://hyperspatial.com
 License: GPL2
