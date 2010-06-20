@@ -52,13 +52,13 @@ class Chromeless extends WP_Widget {
 		<?php echo $before_widget; ?>
         
         <?php if ( $title ) echo $before_title . $title . $after_title; ?>
-        <object type="application/x-shockwave-flash" data="<?php echo get_bloginfo('wpurl'); ?>/wp-content/plugins/chromeless/chromeless.swf" width="<?php echo $video_width; ?>" height="<?php echo $video_height; ?>">
+        <object type="application/x-shockwave-flash" data="<?php echo get_bloginfo('wpurl'); ?>/wp-content/plugins/chromeless-youtube/chromeless.swf" width="<?php echo $video_width; ?>" height="<?php echo $video_height; ?>">
           <param name="flashVars" value="video_source=<?php echo $video_source; ?>&video_width=<?php echo $video_width; ?>&video_height=<?php echo $video_height; ?>&autoplay=<?php echo $autoplay; ?>&youtube_controls=<?php echo $youtube_controls; ?>" />
           <param name="quality" value="high" />
           <param name="wmode" value="opaque" />
           <param name="swfversion" value="6.0.65.0" />
           <param name="expressinstall" value="scripts/expressInstall.swf" />
-          <param name="movie" value="<?php echo get_bloginfo('wpurl'); ?>/wp-content/plugins/chromeless/chromeless.swf" />
+          <param name="movie" value="<?php echo get_bloginfo('wpurl'); ?>/wp-content/plugins/chromeless-youtube/chromeless.swf" />
         </object>	
          
         <?php echo $after_widget; ?>
@@ -175,13 +175,13 @@ function chromeless_youtube($id,$width,$height,$autoplay,$ytcontrols){
 	$ytcontrols = ucwords($ytcontrols);
 	$wp_install_url = get_bloginfo('wpurl');	
 	
-	echo '<object type="application/x-shockwave-flash" data="' . $wp_install_url  .  '/wp-content/plugins/chromeless/chromeless.swf" width="' . $width . '" height="' . $height . '">
+	echo '<object type="application/x-shockwave-flash" data="' . $wp_install_url  .  '/wp-content/plugins/chromeless-youtube/chromeless.swf" width="' . $width . '" height="' . $height . '">
 		<param name="flashVars" value="video_source=' . $id . '&video_width=' . $width . '&video_height=' . $height . '&autoplay=' . $autoplay . '&youtube_controls=' . $ytcontrols . '" />
         <param name="quality" value="high" />
         <param name="wmode" value="opaque" />
         <param name="swfversion" value="6.0.65.0" />
         <param name="expressinstall" value="scripts/expressInstall.swf" />
-        <param name="movie" value="' .  $wp_install_url  .  '/wp-content/plugins/chromeless/chromeless.swf" />
+        <param name="movie" value="' .  $wp_install_url  .  '/wp-content/plugins/chromeless-youtube/chromeless.swf" />
         </object>';      
 }
 
@@ -199,13 +199,13 @@ function chromeless_youtube_shortcode($atts){
 	$ytcontrols = ucwords($ytcontrols);
 	$wp_install_url = get_bloginfo('wpurl');
 	
-	return '<object type="application/x-shockwave-flash" data="' . $wp_install_url  .  '/wp-content/plugins/chromeless/chromeless.swf" width="' . $width . '" height="' . $height . '">
+	return '<object type="application/x-shockwave-flash" data="' . $wp_install_url  .  '/wp-content/plugins/chromeless-youtube/chromeless.swf" width="' . $width . '" height="' . $height . '">
 		<param name="flashVars" value="video_source=' . $id . '&video_width=' . $width . '&video_height=' . $height . '&autoplay=' . $autoplay . '&youtube_controls=' . $ytcontrols . '" />
         <param name="quality" value="high" />
         <param name="wmode" value="opaque" />
         <param name="swfversion" value="6.0.65.0" />
         <param name="expressinstall" value="scripts/expressInstall.swf" />
-        <param name="movie" value="' . $wp_install_url  .  '/wp-content/plugins/chromeless/chromeless.swf" />
+        <param name="movie" value="' . $wp_install_url  .  '/wp-content/plugins/chromeless-youtube/chromeless.swf" />
         </object>';      
 }
 // register Chromeless widget
