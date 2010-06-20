@@ -34,8 +34,8 @@ Absolutely, this simple video player widget pretty much rules!
 
 == Screenshots ==
 
-1. Three players in action
-2. Widget Options
+1. Widget Options
+2. Three players in action
 
 == Changelog ==
 
