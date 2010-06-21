@@ -28,9 +28,33 @@ The Chromeless YouTube Player is super easy, just drag a widget into your sideba
 
 == Frequently Asked Questions ==
 
-= Is this a "Must Have Plugin? =
+= Why should I use this player? =
 
-Absolutely, this simple video player widget pretty much rules!
+This player allows you to easily place specific YouTube videos wherever you want on your Blog or Website.  Your videos can be sized and scattered among your pages or posts, and without the default controls cluttering the experience.
+
+= What is a YouTube ID number? =
+
+The ID number is YouTube's unique identifier for each video.  You can find the ID number in the address bar at the end of the URL after the "v=" part.  It can also be found in the embed code. 
+
+= How many players can I create? =
+
+Theoretically there is no limit, but for practical reasons you may want to limit yourself to a couple of players for each page.  Use your judgment, the more players that are buffering data at the same time, the more likely there is to be loading issues.
+
+= Can I have more than one video per player? =
+
+No, for now you are limited to one. Future releases are planned with support for playlists, so stay tuned.
+
+= My player won't respond? =
+
+Try refreshing the page using F5, sometimes the video requests to YouTube will get stuck, due to traffic.
+
+= My player is stuck loading? =
+
+Try refreshing the page using F5.  If you have another player with the same video (same video ID) open in another tab the two players may interfere with each other depending on which browser you are using.
+
+= How do I control playback? =
+
+If you are using the chromeless controls, just click on the video to display the basic control buttons.
 
 == Screenshots ==
 
