@@ -11,7 +11,7 @@ This chromeless YouTube player enables you to easily display videos on your site
 == Description ==
 
 This plugin is a custom YouTube video player.  The default player has custom control buttons that are hidden while the video is playing. Don't worry, there is an option to use the default YouTube controls if you want. The player is meant to play only one single video, by simply entering it's YouTube ID number.  You can then size the player to any width and height, enabling you to display videos anywhere on your site.  Every chromeless widget you create is unique, you can have multiple videos on one page, each with a different source and size.
-This plugin is a must have for any Wordpress developer.  Adding videos to your site has never been easier.  YouTube hosts over 35% of the video media on the internet, it would be silly not to utilize their their simple yet powerful website to store all of your videos.
+This plugin is a must have for any Wordpress developer.  Adding videos to your site has never been easier.  YouTube hosts over 35% of the video media on the internet, it would be silly not to utilize their simple yet powerful website to store all of your videos.
 
 To display these videos on your site, you need to embed a whole bunch of HTML, these embed snippets are the code needed to play each YouTube video on your site. This can sometimes be tedious and that is why I created the Chromeless YouTube Plugin.
 
