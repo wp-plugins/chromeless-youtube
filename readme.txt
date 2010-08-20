@@ -29,8 +29,7 @@ The Chromeless YouTube Player is super easy, just drag a widget into your sideba
 
 = Why do I get a blank black screen? =
 
-If YouTube has the <embed> 
-code disabled you cannot play the video outside of youtube.com, the result is a blank black player screen. You can check to see if this is your issue by visiting youtube and clicking on the 
+If YouTube has the <embed> code disabled you cannot play the video outside of youtube.com, the result is a blank black player screen. You can check to see if this is your issue by visiting youtube and clicking on the 
 <embed> button, if code comes up then good otherwise you cannot play it externally.
 
 I am working on adding some error reporting for this in future versions.
